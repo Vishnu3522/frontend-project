@@ -11,7 +11,7 @@ const Payment = () => {
 
   useEffect(() => {
     // Fetch data from your API endpoint 
-    fetch('http://localhost:3001/displaydata')
+    fetch('https://yoga-backend-1uls.onrender.com/displaydata')
       .then((response) => response.json())
       .then((data) => setFormData(data))
       .catch((error) => console.error('Error fetching data:', error));
