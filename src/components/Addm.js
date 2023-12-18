@@ -33,7 +33,8 @@ function Addm() {
       return;
     }
     try {
-      const response = await fetch('https://yoga-backend-1uls.onrender.com/api/formdata', {
+      // const response = await fetch('https://yoga-backend-1uls.onrender.com/api/formdata', {
+        const response = await fetch('https://yoga-backend-1uls.onrender.com/api/formdata',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
